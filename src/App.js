@@ -8,12 +8,9 @@ import {Routes, Route, Link} from 'react-router-dom';
 
 function App() {
   return (
-    <div className='App'>
-      <nav className='navbar'>
-        <Link to='/' className='nav-item'>Home</Link>
-        <Link to='/contact' className='nav-item'>Contact</Link>
-        <Link to='/projects' className='nav-item'>Projects</Link>
-        </nav>
+    <div>
+    <Navbar />
+      
         <Routes>
            <Route path='/' element={<Home />} />
            <Route path='/Contact' element={<Contact />} />
