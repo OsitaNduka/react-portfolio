@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import Home from './Home';
+import Projects from './Projects';
+import Contacts from './Contacts';
 import {Routes, Route, Link} from 'react-router-dom'; 
 
 function App() {
