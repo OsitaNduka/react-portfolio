@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
+import Home from './Home';
 
 function App() {
   return (
-    <div>
-      <h1>I am Osita Nduka</h1>
+    <div className='App'>
+      <nav className='nav'>
+        <a href='#' className='nav-item'>Home</a>
+        </nav>
+      <Home />
     </div>
     
   );
