@@ -7,9 +7,9 @@ function App() {
   return (
     <div className='App'>
       <nav className='nav'>
-        <link to='#' className='nav-item'>Home</a>
-        <link to='#' className='nav-item'>Contact</a>
-        <link to='#' className='nav-item'>Projects</a>
+        <link to='#' className='nav-item'>Home</link>
+        <link to='#' className='nav-item'>Contact</link>
+        <link to='#' className='nav-item'>Projects</link>
         </nav>
         <Routes>
            <Route path='/' element={<Home />} />
