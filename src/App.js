@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './Home';
+import {Routes, Route} from 'react-router-dom'; 
 
 function App() {
   return (
@@ -8,7 +9,10 @@ function App() {
       <nav className='nav'>
         <a href='#' className='nav-item'>Home</a>
         </nav>
-      <Home />
+        <Routes>
+           <Route path='/' element={<Home />} />
+        </Routes>
+      
     </div>
     
   );
