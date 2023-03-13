@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Home from './Home';
 import Projects from './Projects';
-import Contacts from './Contacts';
+import Contacts from './Contact';
 import {Routes, Route, Link} from 'react-router-dom'; 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         </nav>
         <Routes>
            <Route path='/' element={<Home />} />
-           <Route path='/contact' element={<Contact />} />
+           <Route path='/Contact' element={<Contact />} />
            <Route path='/Projects' element={<Projects />} />
         </Routes>
       
