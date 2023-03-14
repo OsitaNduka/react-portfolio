@@ -9,8 +9,9 @@ import {Routes, Route, Link, Router} from 'react-router-dom';
 function App() {
   return (
     <Router>
-     <div>
-       <Navbar />
+     <Navbar /> 
+     <div className='container'>
+       
       
         <Routes>
            <Route path='/' element={<Home />} />
