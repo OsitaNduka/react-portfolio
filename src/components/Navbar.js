@@ -3,21 +3,23 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='header'>
-        <Link to='/'>
+    <div>
+        <div className='header'>
             <h1>Osita Nduka</h1>
-        </Link>
-        <ul className={isActive ? 'nav-bar active' : 'nav-bar'}>
-            <li>
-                <Link to='/'>Home</Link>
-            </li>
-            <li>
-                <Link to='/projects'>Projects</Link>
-            </li>
-            <li>
-                <Link to='/contact'>Contact</Link>
-            </li>
-        </ul>
+        </div>
+        <nav className='item'>
+            <ul className='ul'>
+                <li>
+                    <Link to='/'>Home</Link>
+                </li>
+                <li>
+                  <Link to='/projects'>Projects</Link>
+                </li>
+                <li>
+                    <Link to='/contact'>Contact</Link>
+                </li>
+            </ul>
+        </nav>
     </div>
   )
 }
