@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
         <div className='header'>
-            <h1>Osita Nduka</h1>
+            Osita Nduka
         </div>
         <nav className='item'>
             <ul className='ul'>
