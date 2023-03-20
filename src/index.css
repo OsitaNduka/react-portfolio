@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+.item {
+display: flex;
+} 
+
+.ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: stretch;
+  margin: auto;
+  
+
+}
+
+.ul li {
+  justify-content: end; 
+}
+
+.logo {
+  display: flex;
+  height: 5vmin;
+  align-items: left;
+  justify-content: left;
+  font-size: 3rem;
+}
+
+
