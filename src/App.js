@@ -11,13 +11,13 @@ import Contact from './Contact';
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Router>
        <Navbar />
        <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/' element={<Contact />} />
-        <Route path='/' element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
       </Router>
     </div>
