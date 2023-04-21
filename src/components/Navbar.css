@@ -2,7 +2,27 @@
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
     
   }
+  .ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: stretch;
+  margin: auto;
   
+
+}
+
+.ul li {
+  justify-content: end; 
+}
+
+.logo {
+  display: flex;
+  height: 5vmin;
+  align-items: left;
+  justify-content: left;
+  font-size: 3rem;
+}
   
   
   
