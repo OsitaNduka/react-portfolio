@@ -1,5 +1,5 @@
 import React from 'react'
-import LinkedInIcon from "@mui/material/LinkedIn";
+import LinkedInIcon from "@mui/icons-material";
 
 function Footer() {
   return (
