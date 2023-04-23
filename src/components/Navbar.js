@@ -6,6 +6,7 @@ const Navbar = () => {
   return (
         <div className='navbar'>
             Osita Nduka
+            imgUrl (../components/assets/0(3)1.jpg)
             <div className='toggleButton'>
               <button> </button>
             </div>
