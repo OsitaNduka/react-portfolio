@@ -19,5 +19,13 @@
   margin: 20px;
   font-size: 25px;
 }
-  
+.footer {
+ padding: 50px;
+ background-image: url(../components/assets/galaxy.jpeg);
+ background-position: left;
+ background-repeat: no-repeat;
+ color: white;
+ font-size: 20px;
+ text-align: left;
+}
   
