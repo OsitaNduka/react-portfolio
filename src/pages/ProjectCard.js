@@ -1,6 +1,8 @@
+import React from "react"
 import { Col } from "react-boosrtap"
 
-export const ProjectCard = ({title, description, imgUrl}) => {
+
+const ProjectCard = ({title, description, imgUrl}) => {
     return (
     <Col sm={6} md={4}>
         <div className="proj-imgbx">
@@ -13,3 +15,5 @@ export const ProjectCard = ({title, description, imgUrl}) => {
     </Col>
     )
 }
+
+export default ProjectCard

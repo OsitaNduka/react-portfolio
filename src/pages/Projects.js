@@ -3,7 +3,7 @@ import { ProjectCard } from './ProjectCard';
 import BootstrapImg from '../components/assets/Bootstrap.png';
 import HoriseonImg from '../components/assets/Horiseon.png';
 
-export const Projects = () => {
+const Projects = () => {
 
   const projects = [
     {
