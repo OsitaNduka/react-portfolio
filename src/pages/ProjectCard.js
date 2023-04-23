@@ -1,7 +1,6 @@
 import React from "react"
 import { Col } from "react-bootstrap"
 
-const ProjectCard =() => {
 
 const ProjectCard = ({title, description, imgUrl}) => {
     return (
@@ -16,5 +15,5 @@ const ProjectCard = ({title, description, imgUrl}) => {
     </Col>
     )
 }
-}
+
 export default ProjectCard
