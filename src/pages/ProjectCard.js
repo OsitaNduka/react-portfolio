@@ -1,7 +1,7 @@
 import React from "react"
 import { Col } from "react-bootstrap"
 
-const ProjectCard =() =>{
+const ProjectCard =() => {
 
 const ProjectCard = ({title, description, imgUrl}) => {
     return (

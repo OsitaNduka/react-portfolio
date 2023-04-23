@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: 'Bootstrap Portfolio',
       description: 'Bootstrap Portfolio profile',
-      imgUrl: 'https://ositanduka.github.io/Bootstrap-Portfolio/',
+      imgUrl: 'BootsrapImg',
     },
     {
       title: 'Css-Grid Layout',
