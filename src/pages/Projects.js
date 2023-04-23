@@ -2,7 +2,12 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    {
+      title: 'Bootsrap Portfolio',
+      image: './components/assets/Boostrap screenshot.png',
+      description: 'Bootstrap Portfolio',
+      github: 'https://github.com/OsitaNduka/Bootstrap-Portfolio'
+    }
   )
 }
 
