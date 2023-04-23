@@ -1,6 +1,7 @@
-import { Col, Container, Tab, Row } from 'react-bootstrap';
+import { Col, Container, Tab, Row, Nav } from 'react-bootstrap';
 import { ProjectCard } from './ProjectCard';
-import Bootstrap.PNG from "../components/assets/Bootstrap"
+import BootstrapImg from '../components/assets/Bootstrap.png';
+import HoriseonImg from '../components/assets/Horiseon.png';
 
 export const Projects = () => {
 
@@ -8,17 +9,17 @@ export const Projects = () => {
     {
       title: 'Bootstrap Portfolio',
       description: 'Bootstrap Portfolio profile',
-      imgUrl: 'Bootstrap screenshot.PNG',
+      imgUrl: 'BootstrapImg',
     },
     {
       title: 'Css-Grid Layout',
       description: 'Search Engine Optimization',
-      imgUrl: 'Css-Grid Layout.PNG'
+      imgUrl: 'HoriseonImg'
     },
     {
       title: 'Travel-App',
       description: 'Travel App Tracker',
-      imgUrl: 'Travel-App.PNG',
+      imgUrl: 'Travel-AppImg',
     }
 
     ]
