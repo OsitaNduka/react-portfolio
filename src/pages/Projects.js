@@ -1,23 +1,24 @@
-import { Container, Tab } from '@mui/material'
-import React from 'react'
+import { Col, Container, Tab, Row } from 'react-bootstrap';
+import { ProjectCard } from './ProjectCard';
+import Bootstrap.PNG from "../components/assets/Bootstrap"
 
-const Projects = () => {
+export const Projects = () => {
 
   const projects = [
     {
       title: 'Bootstrap Portfolio',
       description: 'Bootstrap Portfolio profile',
-      imgUrl: 'bootstrapImg',
+      imgUrl: 'Bootstrap screenshot.PNG',
     },
     {
       title: 'Css-Grid Layout',
       description: 'Search Engine Optimization',
-      imgUrl: 'css-gridImg'
+      imgUrl: 'Css-Grid Layout.PNG'
     },
     {
       title: 'Travel-App',
       description: 'Travel App Tracker',
-      imgUrl: 'travel-appImg',
+      imgUrl: 'Travel-App.PNG',
     }
 
     ]
@@ -49,7 +50,10 @@ const Projects = () => {
                 {
                   projects.map((project, index) =>{
                     return(
-                      <p>{project.title}</p>
+                      <ProjectCard
+                      key={index}
+                      {...project}
+                      />
                     )
                   })
                 }
