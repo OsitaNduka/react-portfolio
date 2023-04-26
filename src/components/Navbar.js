@@ -1,11 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Navbar, Container } from 'react-bootstrap';
 import "../styles/Navbar.css"; 
+import prof-pic from '../components/assets/prof-pic'
 
 const Navbar = () => {
   return (
         <div className='navbar'>
-            Osita Nduka
+          <img src={prof-pic} alt='Osita Nduka' />
+            
             <div className='toggleButton'>
               <button> </button>
             </div>
