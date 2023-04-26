@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Navbar, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import "../styles/Navbar.css"; 
-import prof from '.../components/assets/prof-pic.jpg';
+import prof from '../components/assets/prof-pic.jpg';
 
 const Navbar = () => {
   return (
