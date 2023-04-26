@@ -6,7 +6,7 @@ import prof from '../components/assets/prof-pic.jpg';
 const Navbar = () => {
   return (
         <div className='navbar'>
-          <img src={prof-pic.jpg} alt='Osita Nduka' />
+          <img src={prof} alt='Osita Nduka' />
             
             <div className='toggleButton'>
               <button> </button>
