@@ -2,7 +2,7 @@
     width: 100%;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
-    color: aqua;
+    color: rgb(1, 19, 19);
 }
 
 .about {
@@ -14,5 +14,10 @@
     align-items: center;
     text-align: center;
     background-color: aquamarine;
-    color: whitesmoke;
+    color: rgb(14, 1, 1);
+}
+
+.about h2{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 80px;  
 }
