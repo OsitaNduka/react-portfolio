@@ -1,0 +1,18 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+}
+
+.about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aquamarine;
+    color: whitesmoke;
+}
