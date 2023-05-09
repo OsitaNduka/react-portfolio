@@ -3,6 +3,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { GitHub } from '@mui/icons-material';
 import prof from '../components/assets/prof-pic.jpg';
+import "../styles/Home.css";
 
 function Home() {
   return (
