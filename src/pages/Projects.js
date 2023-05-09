@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Container, Tab, Row, Nav } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
-import Bootstrap from '../components/assets/Bootstrap.png';
-import Horiseon from '../components/assets/Horiseon.png';
+import bootstrap from '../components/assets/bootstrap.png';
+import horiseon from '../components/assets/horiseon.png';
 
 const Projects = () => {
 
@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: 'Bootstrap Portfolio',
       description: 'Bootstrap Portfolio profile',
-      imgUrl: 'BootsrapImg',
+      imgUrl: 'bootstrap',
     },
     {
       title: 'Css-Grid Layout',
