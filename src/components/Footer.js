@@ -1,13 +1,17 @@
-import React from 'react'
-import { GitHub } from '@mui/icons-material'
-import { LinkedIn } from '@mui/icons-material'
+import React from 'react';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { GitHub } from '@mui/icons-material';
+
+
 
 function Footer() {
   return (
     <div className='footer'>
     <div> 
      <GitHub /> 
-     <LinkedIn />  
+     <LinkedInIcon />
+     <FacebookIcon />  
     </div>
     <p> &copy; 2023 ositanduka.com</p>
     </div>
