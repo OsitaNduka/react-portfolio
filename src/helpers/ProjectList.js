@@ -1,7 +1,9 @@
 import bootstrap from "../components/assets/bootstrap.png";
 import horiseon from "../components/assets/horiseon.png";
 import travelApp from "../components/assets/travel-app.png";
-import passwordGen from "../components/assets/password Generator.png"
+import passwordGen from "../components/assets/password Generator.png";
+import bioimage from "../components/assets/bio-image.png";
+import positivevibes from "../components/assets/positive vibes.png";
 
 export const ProjectList = [
     {
@@ -28,5 +30,17 @@ export const ProjectList = [
         
       
     },
+    {
+        name: 'Travel-App',
+        image: bioimage,
+        skills: 'Travel App Tracker',
+        
+      },
+      {
+        name: 'Travel-App',
+        image: positivevibes,
+        skills: 'Travel App Tracker',
+        
+      },
 
     ]
