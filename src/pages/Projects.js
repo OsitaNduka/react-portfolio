@@ -1,75 +1,22 @@
 import React from 'react';
-import { Col, Container, Tab, Row, Nav } from 'react-bootstrap';
-import ProjectCard from './ProjectCard';
-import bootstrap from '../components/assets/bootstrap.png';
-import horiseon from '../components/assets/horiseon.png';
+import ProjectItem from "../components/ProjectItem";
+import { ProjectList } from "../helpers/ProjectList";
 
-const Projects = () => {
+import "../styles/Projects.css";
 
-  const projects = [
-    {
-      title: 'Bootstrap Portfolio',
-      description: 'Bootstrap Portfolio profile',
-      imgUrl: 'bootstrap',
-    },
-    {
-      title: 'Css-Grid Layout',
-      description: 'Search Engine Optimization',
-      imgUrl: 'HoriseonImg'
-    },
-    {
-      title: 'Travel-App',
-      description: 'Travel App Tracker',
-      imgUrl: 'Travel-AppImg',
-    }
-
-    ]
-  
+function Projects() {
   return (
-   <section className='projects' id='projects'>
-    <Container>
-      <Row>
-        <Col>
-         <h2>Projects</h2>
-         <p>My Projects display is wonderful</p>
-         <Tab.Container id="projects-tabs" defaultActiveKey="first">
-         <Nav variant="pills" className='nav-pills mb-5 justify-content-center align-items-center' id="pills-tab">
-           <Nav.Item>
-             <Nav.Link href="/first">Tab One</Nav.Link>
-           </Nav.Item>
-           <Nav.Item>
-              <Nav.Link eventKey="second">Tab Two</Nav.Link>
-           </Nav.Item>
-           <Nav.Item>
-              <Nav.Link eventKey="third">
-                Tab Three
-              </Nav.Link>
-           </Nav.Item>
-          </Nav>
-          <Tab.Content>
-            <Tab.Pane eventKey="first">
-              <Row>
-                {
-                  projects.map((project, index) =>{
-                    return(
-                      <ProjectCard
-                      key={index}
-                      {...project}
-                      />
-                    )
-                  })
-                }
-              </Row>
-            </Tab.Pane>
-            <Tab.Pane eventKey="second">Add text</Tab.Pane>
-            <Tab.Pane eventKey="third">Add text</Tab.Pane>
-           </Tab.Content>
-           </Tab.Container>
-            </Col>
-      </Row>
-    </Container>
-   </section>
-  )
+    <div className="projects">
+      <h1> My Personal Projects</h1>
+      <div className="projectList">
+        {ProjectList.map((project, idx) => {
+          return (
+            <ProjectItem id={idx} name={project.name} image={project.image} />
+          );
+        })}
+      </div>
+    </div>
+  );
 }
 
-export default Projects
+export default Projects;
