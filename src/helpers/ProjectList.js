@@ -1,27 +1,30 @@
-import bootstrap from "../assets/"
+import bootstrap from "../components/assets/bootstrap.png";
+import horiseon from "../components/assets/horiseon.png";
+import travelApp from "../components/assets/travel-app.png";
+import passwordGen from "../components/assets/password Generator.png"
 
-export const projectList = [
+export const ProjectList = [
     {
       name: 'Bootstrap Portfolio',
-      image: 'Bootstrap Portfolio profile',
+      image: bootstrap,
       skills: 'bootstrap',
     },
     {
       name: 'Css-Grid Layout',
-      image: 'Search Engine Optimization',
-      skills: 'HoriseonImg'
+      image: horiseon,
+      skills: 'Search Engine Optimization',
     },
     {
       name: 'Travel-App',
-      imgUrl: 'Travel-AppImg',
-      description: 'Travel App Tracker',
+      image: travelApp,
+      skills: 'Travel App Tracker',
       
     },
     
     {
-       name: 'Travel-App',
-       imgUrl: 'Travel-AppImg',
-       description: 'Travel App Tracker',
+       name: 'Password Generator',
+       imgage: passwordGen,
+       skills: 'Travel App Tracker',
         
       
     },
