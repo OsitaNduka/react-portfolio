@@ -31,15 +31,15 @@ export const ProjectList = [
       
     },
     {
-        name: 'Travel-App',
+        name: 'A profile website',
         image: bioimage,
-        skills: 'Travel App Tracker',
+        skills: 'A aprofile website',
         
       },
       {
-        name: 'Travel-App',
+        name: 'Positive Vibes',
         image: positivevibes,
-        skills: 'Travel App Tracker',
+        skills: 'A feel good Website',
         
       },
 
