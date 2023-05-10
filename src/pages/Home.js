@@ -25,8 +25,8 @@ function Home() {
             <h2>Front-End</h2>
             <span>
             HTML5, CSS3, Javascript, jQuery, React.js, Node, ReactJS, React Native, Fluter, 
-            NPM, BootStrap, Agile development, Version control, Git, GitHub, and Netlify 
-            MaterialUI, TailwindCSS, Yarn and Technical project management,
+            NPM, BootStrap, Agile Development, Version control, Git, GitHub, and Netlify 
+            MaterialUI, TailwindCSS, Yarn and Technical Project Management,
             </span>
           </li>
           <li className='item'>
