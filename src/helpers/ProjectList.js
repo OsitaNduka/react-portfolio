@@ -9,7 +9,7 @@ export const ProjectList = [
     {
       name: 'Bootstrap Portfolio',
       image: bootstrap,
-      skills: 'bootstrap',
+      skills: 'My Bootstrap Portfolio',
     },
     {
       name: 'Css-Grid Layout',
@@ -26,19 +26,19 @@ export const ProjectList = [
     {
        name: 'Password Generator',
        imgage: passwordGen,
-       skills: 'Travel App Tracker',
+       skills: 'A Password Generator',
         
       
     },
     {
         name: 'A profile website',
-        image: bioimage,
-        skills: 'A aprofile website',
+        image: bioImage,
+        skills: 'A profile website',
         
       },
       {
         name: 'Positive Vibes',
-        image: positivevibes,
+        image: positiveVibes,
         skills: 'A feel good Website',
         
       },
