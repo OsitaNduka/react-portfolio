@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    padding-top: 10px;
+    background-image: url(../components/assets/galaxy.jpeg);
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+   }
+
+   .footer p {
+    color: white;
+   }
+
+   @media only screen and (max-width: 600px) {
+    .footer svg {
+        font-size: 50px;
+    }
+   }
