@@ -4,6 +4,7 @@ import travelApp from "../components/assets/travelApp.png";
 import passwordGen from "../components/assets/passwordGen.png";
 import bioImage from "../components/assets/bioImage.png";
 import positiveVibes from "../components/assets/positiveVibes.png";
+import ClickyGame from "../components/assets/"
 
 export const ProjectList = [
     {
@@ -28,9 +29,9 @@ export const ProjectList = [
     
     {
        id: 3,
-       name: 'Password Generator',
+       name: 'Clicky Game',
        imgage: passwordGen,
-       skills: 'A Password Generator', 
+       skills: 'A Clicky Fun Game', 
     },
       {
         id: 4,
