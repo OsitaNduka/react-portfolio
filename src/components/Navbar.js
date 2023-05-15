@@ -16,7 +16,7 @@ function Navbar () {
             
             <div className='toggleButton'>
               <button
-                onclick={() =>{
+                onClick={() =>{
                  setExpandNavbar((prev) => !prev);
                 }}
                 > 
