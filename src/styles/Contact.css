@@ -1,38 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
-.contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(194, 222, 246);
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    background-color: #eee;
 }
 
-.form {
+*{
+    box-sizing: border-box;
+}
+
+form {
     display: block;
-    background-color: white;
+    background-color: #fff;
     box-shadow: 1px 1px 3px 2px #ddd;
     margin: 40px auto;
-    max-width: 600px;
+    max-width: 900px;
     max-height: 700px;
-    padding: 20px 40px;
+    padding: 25px 40px;
 }
-.form input, textarea {
+form input, textarea {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 10px auto;
+    margin: 15px auto;
     padding: 8px;
     font-family: "Poppins";
     background-color: aliceblue;
     border: 1px solid snow;
 }
 
-.form span {
+form span {
     color: blue;
 }
 
-.form button {
+form button {
     height: 30px;
     width: 80px;
     align-items: center;

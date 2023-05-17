@@ -11,10 +11,19 @@ function Footer() {
     <div className='footer'>
     <div> 
      <GitHub /> 
+     <a href="https://github.com/OsitaNduka">GitHub.com/OsitaNduka</a>
      <LinkedInIcon />
+     <a href="https://www.linkedin.com/in/osita-nduka-18820b14/">LinkedIn</a>
      <FacebookIcon />  
     </div>
     <p> &copy; 2023 ositanduka.com</p>
+      <>
+      <a href="#">Telephone: +44 07961027111</a>
+      </>
+      <>
+      <a href="mailto:ositanduka@ymail.com">Email: ositanduka@ymail.com</a>
+      </>
+      
     </div>
   )
 }
