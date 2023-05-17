@@ -1,7 +1,6 @@
 import bootstrap from "../components/assets/bootstrap.png";
 import horiseon from "../components/assets/horiseon.png";
-import travelApp from "../components/assets/travelApp.png";
-import passwordGen from "../components/assets/passwordGen.png";
+import travelApp from "../components/assets/travelApp.png"
 import bioImage from "../components/assets/bioImage.png";
 import positiveVibes from "../components/assets/positiveVibes.png";
 import ClickyGame from "../components/assets/ClickyGame.png";
@@ -30,7 +29,7 @@ export const ProjectList = [
     {
        id: 3,
        name: 'Clicky Game',
-       imgage: ClickyGame,
+       image: ClickyGame,
        skills: 'A Clicky Fun Game', 
     },
       {

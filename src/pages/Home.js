@@ -9,10 +9,10 @@ function Home() {
   return (
     <div className='home'>
       <div className='about'>
-        <h2>Hello, My Name is Osita Nduka</h2>
+        <h2>Osita Nduka</h2>
         <img src={prof} alt='Osita Nduka' />
         <div className='prompt'>
-          <p> A Software developer with a passion for coding and learning.</p>
+          <p>I love writing high-quality code, and I'm passionate about software and technology.</p>
           <GitHub /> 
           <LinkedInIcon />
           <FacebookIcon />
