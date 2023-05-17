@@ -23,12 +23,14 @@ const Contact = () => {
       <>
       <a href="#">Spotify</a>
       </>
-      <h4>Please leave a comment</h4>
-      <>
-      <label htmlFor=''>Name</label>
-      <input type='text' placeholder='name'/>
-      <button type='submit'>Submit</button>
-      </>
+      <div className='form'>
+        <h1>Contact <span>Here</span></h1>
+        <input type="text" name='name' id="" placeholder='Enter Name'/>
+        <input type="email" name='email' id="" placeholder='Enter email'/>
+        <input type="phone" name='phone' id="" placeholder='+44'/>
+        <textarea name="message" id="" cols="30" rows="10" />
+        <button type="submit">send</button>
+      </div>
     </div>
 
     
