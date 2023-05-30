@@ -16,7 +16,7 @@ As you click on each button it will take you to the the page/section where you c
 
 
 ## Usage
-![App Screenshot](./com)
+![App Screenshot](./src/components/assets/ReactPortfolio.PNG)
 
 ## Credits
 N/A
