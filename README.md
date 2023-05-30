@@ -17,6 +17,9 @@ As you click on each button it will take you to the the page/section where you c
 
 ## Usage
 ![App Screenshot](./src/components/assets/ReactPortfolio.PNG)
+![App Screenshot](./src/components/assets/projects-page.PNG)
+![App Screenshot](./src/components/assets/contact-page.PNG)
+![App Screenshot](./src/components/assets/experience-page.PNG)
 
 ## Credits
 N/A
