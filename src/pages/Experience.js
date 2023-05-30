@@ -13,61 +13,61 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2010 - 2014"
+          date="2016 - 2017"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Random High School, Random Place, Random State
+            University of East London, United Kingdom
           </h3>
-          <p> High School Diploma</p>
+          <p> Master of Laws, (LLM): International Law and Financial Markets</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2014 - 2018"
+          date="2013 - 2016"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Cool University, Vancouver, British Columbia
+            University of Plymouth, United Kingdom
           </h3>
 
-          <h4 className="vertical-timeline-element-subtitle">
-            Bachelor's Degree
-          </h4>
+          <p>
+          Bachelor of Science, (BSc): Law with Management 
+          </p>
 
-          <p> Computer Science</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2022 - 2023"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+           Trilogy Boot-Camp 
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+           Front-End Web Development
+          </h4>
+          <p>Developed Front-End Web Projects and collaborated
+            with two teams to launch two Applications.</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2018 - 2020"
+          date="2011 - 2022"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Back End Engineer - Google
+            Electoral Registration officer
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>Developed the backend infrastructure for 3 projects.</p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2020 - present"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Full Stack Engineer - Twitch
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            London Borough of Newham Electoral Services
           </h4>
           <p>
-            Helped the team launch 2 major features by working both in the front
-            end and back end.
+          My duty as an Electoral officer assisted me to develop the skills I displayed in the roles such as communication, accuracy, 
+          problem solving, tenacity and inclusion.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

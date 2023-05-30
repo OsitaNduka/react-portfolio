@@ -10,6 +10,7 @@ no matter the size of your screen, the html tag will shrink or expand accordingl
 the web page will display perfectly.
 
 ## Installation
+The user need to install the dependencies to the application by using the command-line: npm i (node package manager initialize: node_modules).
 As you click on each button it will take you to the the page/section where you can view the full page. The projects page displays all my work while the contact page displays a contact me form. The experience page shows my background and education experience.
 
 
