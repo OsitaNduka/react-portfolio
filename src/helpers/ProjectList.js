@@ -10,19 +10,19 @@ export const ProjectList = [
       id: 0,
       name: 'Bootstrap Portfolio',
       image: bootstrap,
-      skills: 'My Bootstrap Portfolio',
+      description: 'My Bootstrap Portfolio',
     },
     {
       id: 1,
       name: 'Css-Grid Layout',
       image: horiseon,
-      skills: 'Search Engine Optimization',
+      description: 'Search Engine Optimization',
     },
     {
       id: 2,
       name: 'Travel-App',
       image: travelApp,
-      skills: 'Travel App Tracker',
+      description: 'Travel App Tracker',
       
     },
     
@@ -30,20 +30,20 @@ export const ProjectList = [
        id: 3,
        name: 'Clicky Game',
        image: ClickyGame,
-       skills: 'A Clicky Fun Game', 
+       description: 'A Clicky Fun Game', 
     },
       {
         id: 4,
         name: 'A profile website',
         image: bioImage,
-        skills: 'A profile website',
+        description: 'A profile website',
         
       },
       {
         id: 5,
         name: 'Positive Vibes',
         image: positiveVibes,
-        skills: 'A feel good Website',
+        description: 'A feel good Website',
         
       },
 
