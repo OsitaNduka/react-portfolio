@@ -60,7 +60,7 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Electoral Registration officer
+            Electoral Registration Officer
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             London Borough of Newham Electoral Services
