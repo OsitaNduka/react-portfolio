@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.2d878ecb.css",
+    "main.js": "/react-portfolio/static/js/main.b7656885.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/horiseon.png": "/react-portfolio/static/media/horiseon.29ee1d6657fd6541ab54.png",
+    "static/media/travelApp.png": "/react-portfolio/static/media/travelApp.0ff1e186d4db1e5510d2.png",
+    "static/media/bootstrap.png": "/react-portfolio/static/media/bootstrap.01b3556a57e82c927971.png",
+    "static/media/bioImage.png": "/react-portfolio/static/media/bioImage.a64917ad93e2467bccd3.png",
+    "static/media/positiveVibes.png": "/react-portfolio/static/media/positiveVibes.89a68b824b03906dbc9d.png",
+    "static/media/ClickyGame.png": "/react-portfolio/static/media/ClickyGame.dcf20c0227cc49f68abb.png",
+    "static/media/galaxy.jpeg": "/react-portfolio/static/media/galaxy.f941ac5a275f25326304.jpeg",
+    "static/media/prof-pic.jpg": "/react-portfolio/static/media/prof-pic.f65e299ee9e21f6d9ece.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.2d878ecb.css.map": "/react-portfolio/static/css/main.2d878ecb.css.map",
+    "main.b7656885.js.map": "/react-portfolio/static/js/main.b7656885.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d878ecb.css",
+    "static/js/main.b7656885.js"
+  ]
+}
